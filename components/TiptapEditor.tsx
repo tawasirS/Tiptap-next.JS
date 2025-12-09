@@ -340,7 +340,7 @@ const TiptapEditor: React.FC<TiptapProps> = ({ initialContent, onChange }) => {
             </div>
 
             {/* Preview HTML */}
-            <div className="mt-4 rounded-xl border border-dashed border-gray-300 bg-gray-50 px-4 py-3 text-xs text-gray-600">
+            <div className="mt-4 rounded-xl border border-dashed border-gray-300 bg-gray-50 px-4 py-3 text-xs text-gray-600" hidden>
                 <div className="mb-1 font-semibold text-gray-700">HTML output</div>
                 <pre className="whitespace-pre-wrap break-words">
                     {editor.getHTML()}
